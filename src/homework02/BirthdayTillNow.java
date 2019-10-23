@@ -25,7 +25,6 @@ public class BirthdayTillNow {
         System.out.println("Birthday is: " + dateBirthday);
 
         Date now = new Date();
-//        now.getTime();
         System.out.println("Today is: " + now);
 
         long birthdayTillNowMS = (now.getTime() - dateBirthday.getTime()) / 1000;
